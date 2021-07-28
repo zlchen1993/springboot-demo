@@ -1,0 +1,11 @@
+my:
+  application:
+    name: zlchen
+    title: Spring boot
+    wholeTitle: ${my.application.name}--${my.application.title}
+
+server:
+  port: 8081
+spring:
+  profiles:
+    active: dev
